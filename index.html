@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <button id="new-deck" class="btn">New Deck</button>
+        <p id="remaining_cards">Cards left:</p>
+      </div>
+      <h2 id="header">Game of War!</h2>
+      <p id="computer_score"></p>
+      <div id="cards">
+        <div class="first-player">
+          <div class="card-slot-first"></div>
+          <div class="card-slot-first"></div>
+        </div>
+        <div class="second-player">
+          <div class="card-slot-second"></div>
+          <div class="card-slot-second"></div>
+        </div>
+      </div>
+      <p id="my_score"></p>
+      <button disabled id="draw__cards" class="btn disabled">Draw!</button>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
